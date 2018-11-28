@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		05B400FE21AF143D005EE15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B400FD21AF143D005EE15A /* AppDelegate.swift */; };
-		05B4010021AF143D005EE15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B400FF21AF143D005EE15A /* ViewController.swift */; };
 		05B4010321AF143D005EE15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010121AF143D005EE15A /* Main.storyboard */; };
 		05B4010521AF143F005EE15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010421AF143F005EE15A /* Assets.xcassets */; };
 		05B4010821AF143F005EE15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010621AF143F005EE15A /* LaunchScreen.storyboard */; };
+		05B4011221AF165E005EE15A /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4011121AF165E005EE15A /* UIColor+CustomColors.swift */; };
+		05B4011821AF1CF7005EE15A /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4011721AF1CF7005EE15A /* Auth.storyboard */; };
+		05B4011C21AF39AA005EE15A /* ConnectNetworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4011B21AF39AA005EE15A /* ConnectNetworksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05B400FA21AF143D005EE15A /* SquareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B400FD21AF143D005EE15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05B400FF21AF143D005EE15A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05B4010221AF143D005EE15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05B4010421AF143F005EE15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05B4010721AF143F005EE15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05B4010921AF143F005EE15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B4011121AF165E005EE15A /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		05B4011721AF1CF7005EE15A /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		05B4011B21AF39AA005EE15A /* ConnectNetworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectNetworksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,72 @@
 		05B400FC21AF143D005EE15A /* SquareApp */ = {
 			isa = PBXGroup;
 			children = (
-				05B400FD21AF143D005EE15A /* AppDelegate.swift */,
-				05B400FF21AF143D005EE15A /* ViewController.swift */,
-				05B4010121AF143D005EE15A /* Main.storyboard */,
-				05B4010421AF143F005EE15A /* Assets.xcassets */,
-				05B4010621AF143F005EE15A /* LaunchScreen.storyboard */,
+				05B4011521AF1C7A005EE15A /* Application */,
+				05B4011321AF1C57005EE15A /* Resources */,
+				05B4011021AF1615005EE15A /* Extensions */,
+				05B4010F21AF15E9005EE15A /* Modules */,
 				05B4010921AF143F005EE15A /* Info.plist */,
 			);
 			path = SquareApp;
+			sourceTree = "<group>";
+		};
+		05B4010F21AF15E9005EE15A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				05B4011921AF35C9005EE15A /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		05B4011021AF1615005EE15A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05B4011121AF165E005EE15A /* UIColor+CustomColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		05B4011321AF1C57005EE15A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05B4010421AF143F005EE15A /* Assets.xcassets */,
+				05B4011621AF1CBD005EE15A /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05B4011521AF1C7A005EE15A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				05B400FD21AF143D005EE15A /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		05B4011621AF1CBD005EE15A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				05B4010621AF143F005EE15A /* LaunchScreen.storyboard */,
+				05B4010121AF143D005EE15A /* Main.storyboard */,
+				05B4011721AF1CF7005EE15A /* Auth.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		05B4011921AF35C9005EE15A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				05B4011A21AF3986005EE15A /* ConnectNetworks */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		05B4011A21AF3986005EE15A /* ConnectNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				05B4011B21AF39AA005EE15A /* ConnectNetworksViewController.swift */,
+			);
+			path = ConnectNetworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B4011821AF1CF7005EE15A /* Auth.storyboard in Resources */,
 				05B4010821AF143F005EE15A /* LaunchScreen.storyboard in Resources */,
 				05B4010521AF143F005EE15A /* Assets.xcassets in Resources */,
 				05B4010321AF143D005EE15A /* Main.storyboard in Resources */,
@@ -135,7 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B4010021AF143D005EE15A /* ViewController.swift in Sources */,
+				05B4011C21AF39AA005EE15A /* ConnectNetworksViewController.swift in Sources */,
+				05B4011221AF165E005EE15A /* UIColor+CustomColors.swift in Sources */,
 				05B400FE21AF143D005EE15A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
