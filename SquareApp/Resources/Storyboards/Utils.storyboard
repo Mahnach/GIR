@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date Picker View Controller-->
+        <scene sceneID="Vku-LR-7cc">
+            <objects>
+                <viewController storyboardIdentifier="DatePickerViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="lGS-aW-DSk" customClass="DatePickerViewController" customModule="SquareApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JuW-bb-9KY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6z8-Yf-Wru">
+                                <rect key="frame" x="0.0" y="142" width="320" height="216"/>
+                                <subviews>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="qIm-va-YiG">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="565373500.39868999">
+                                            <!--2018-12-01 16:11:40 +0000-->
+                                        </date>
+                                        <date key="minimumDate" timeIntervalSinceReferenceDate="-3187252924">
+                                            <!--1900-01-01 11:57:56 +0000-->
+                                        </date>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="G9N-QO-V99"/>
+                                    <constraint firstAttribute="bottom" secondItem="qIm-va-YiG" secondAttribute="bottom" id="k2R-Da-vFS"/>
+                                    <constraint firstItem="qIm-va-YiG" firstAttribute="top" secondItem="6z8-Yf-Wru" secondAttribute="top" id="qdj-Wx-tHF"/>
+                                    <constraint firstAttribute="trailing" secondItem="qIm-va-YiG" secondAttribute="trailing" id="whQ-8d-7Dr"/>
+                                    <constraint firstItem="qIm-va-YiG" firstAttribute="leading" secondItem="6z8-Yf-Wru" secondAttribute="leading" id="xuP-4z-vBB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.29805787852112675" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6z8-Yf-Wru" firstAttribute="centerY" secondItem="2dN-4v-pkG" secondAttribute="centerY" id="5Cu-fc-jg2"/>
+                            <constraint firstItem="6z8-Yf-Wru" firstAttribute="centerX" secondItem="2dN-4v-pkG" secondAttribute="centerX" id="LSR-nm-uZb"/>
+                            <constraint firstItem="6z8-Yf-Wru" firstAttribute="width" secondItem="JuW-bb-9KY" secondAttribute="width" id="jut-lO-JIa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2dN-4v-pkG"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="qIm-va-YiG" id="bvn-LN-9Tk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gev-TU-UEC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-118" y="134"/>
+        </scene>
+    </scenes>
+</document>

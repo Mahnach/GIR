@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0521C09C21B1D3E200E6A43D /* BaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C09B21B1D3E200E6A43D /* BaseAssembly.swift */; };
+		0521C09E21B1D47700E6A43D /* BaseAssemblySeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C09D21B1D47700E6A43D /* BaseAssemblySeed.swift */; };
+		0521C0A021B1D49800E6A43D /* AssemblyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C09F21B1D49800E6A43D /* AssemblyFactory.swift */; };
+		0521C0A221B1D4C800E6A43D /* AssemblyFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0A121B1D4C800E6A43D /* AssemblyFactoryImpl.swift */; };
+		0521C0A521B1D59500E6A43D /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0A421B1D59500E6A43D /* ServiceFactory.swift */; };
+		0521C0A721B1D73200E6A43D /* ServiceFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0A621B1D73200E6A43D /* ServiceFactoryImpl.swift */; };
+		0521C0AA21B1DB9300E6A43D /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0A921B1DB9300E6A43D /* ApplicationAssembly.swift */; };
+		0521C0AC21B1DBEE00E6A43D /* ApplicationAssemblyImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0AB21B1DBEE00E6A43D /* ApplicationAssemblyImpl.swift */; };
+		0521C0AE21B1DC5B00E6A43D /* ApplicationModuleSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0AD21B1DC5B00E6A43D /* ApplicationModuleSeed.swift */; };
+		0521C0B121B1DE0100E6A43D /* RouterSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0B021B1DE0100E6A43D /* RouterSeed.swift */; };
+		0521C0B521B1DE8C00E6A43D /* AuthorizationAssemblyImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0B421B1DE8C00E6A43D /* AuthorizationAssemblyImpl.swift */; };
+		0521C0B721B1DEA800E6A43D /* AuthorizationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0B621B1DEA800E6A43D /* AuthorizationAssembly.swift */; };
+		0521C0BA21B1E02700E6A43D /* VCDisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0B921B1E02700E6A43D /* VCDisposeBag.swift */; };
+		0521C0BD21B1E0DF00E6A43D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0BC21B1E0DF00E6A43D /* BaseViewController.swift */; };
+		0521C0BF21B1E13300E6A43D /* ViewLifecycleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0BE21B1E13300E6A43D /* ViewLifecycleObservable.swift */; };
+		0521C0C121B2919F00E6A43D /* BaseAppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0C021B2919F00E6A43D /* BaseAppRouter.swift */; };
+		0521C0C421B2933300E6A43D /* AuthorizationFirstScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0C321B2933300E6A43D /* AuthorizationFirstScreenRouter.swift */; };
+		0521C0C721B2C26000E6A43D /* TransitionIdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0C621B2C26000E6A43D /* TransitionIdGenerator.swift */; };
+		0521C0CC21B2CEFD00E6A43D /* StoryboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0C921B2CEFC00E6A43D /* StoryboardFactory.swift */; };
+		0521C0CD21B2CEFD00E6A43D /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0CB21B2CEFC00E6A43D /* Localization.swift */; };
+		0521C0D021B2CF8400E6A43D /* FirstAuthScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0CF21B2CF8400E6A43D /* FirstAuthScreenViewController.swift */; };
+		0521C0D321B2CFB000E6A43D /* SecondAuthScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0D221B2CFB000E6A43D /* SecondAuthScreenViewController.swift */; };
+		0521C0D521B2D08F00E6A43D /* FirstAuthScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0D421B2D08E00E6A43D /* FirstAuthScreenViewModel.swift */; };
+		0521C0D721B2D1EB00E6A43D /* SecondAuthScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0D621B2D1EB00E6A43D /* SecondAuthScreenRouter.swift */; };
+		0521C0DA21B2E9C600E6A43D /* Utils.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0521C0D921B2E9C600E6A43D /* Utils.storyboard */; };
+		0521C0DE21B2EE6500E6A43D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0DD21B2EE6500E6A43D /* DatePickerViewController.swift */; };
+		0521C0E121B2F19F00E6A43D /* DatePickerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0E021B2F19F00E6A43D /* DatePickerRouter.swift */; };
 		05B400FE21AF143D005EE15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B400FD21AF143D005EE15A /* AppDelegate.swift */; };
 		05B4010321AF143D005EE15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010121AF143D005EE15A /* Main.storyboard */; };
 		05B4010521AF143F005EE15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010421AF143F005EE15A /* Assets.xcassets */; };
@@ -14,9 +41,37 @@
 		05B4011221AF165E005EE15A /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4011121AF165E005EE15A /* UIColor+CustomColors.swift */; };
 		05B4011821AF1CF7005EE15A /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4011721AF1CF7005EE15A /* Auth.storyboard */; };
 		05B4011C21AF39AA005EE15A /* ConnectNetworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4011B21AF39AA005EE15A /* ConnectNetworksViewController.swift */; };
+		B3004D444FA6F8D89BA84014 /* Pods_SquareApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D75B824F51E9C288E6E59D6 /* Pods_SquareApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0521C09B21B1D3E200E6A43D /* BaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAssembly.swift; sourceTree = "<group>"; };
+		0521C09D21B1D47700E6A43D /* BaseAssemblySeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAssemblySeed.swift; sourceTree = "<group>"; };
+		0521C09F21B1D49800E6A43D /* AssemblyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyFactory.swift; sourceTree = "<group>"; };
+		0521C0A121B1D4C800E6A43D /* AssemblyFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyFactoryImpl.swift; sourceTree = "<group>"; };
+		0521C0A421B1D59500E6A43D /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
+		0521C0A621B1D73200E6A43D /* ServiceFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactoryImpl.swift; sourceTree = "<group>"; };
+		0521C0A921B1DB9300E6A43D /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		0521C0AB21B1DBEE00E6A43D /* ApplicationAssemblyImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssemblyImpl.swift; sourceTree = "<group>"; };
+		0521C0AD21B1DC5B00E6A43D /* ApplicationModuleSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationModuleSeed.swift; sourceTree = "<group>"; };
+		0521C0B021B1DE0100E6A43D /* RouterSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSeed.swift; sourceTree = "<group>"; };
+		0521C0B421B1DE8C00E6A43D /* AuthorizationAssemblyImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationAssemblyImpl.swift; sourceTree = "<group>"; };
+		0521C0B621B1DEA800E6A43D /* AuthorizationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationAssembly.swift; sourceTree = "<group>"; };
+		0521C0B921B1E02700E6A43D /* VCDisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDisposeBag.swift; sourceTree = "<group>"; };
+		0521C0BC21B1E0DF00E6A43D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0521C0BE21B1E13300E6A43D /* ViewLifecycleObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLifecycleObservable.swift; sourceTree = "<group>"; };
+		0521C0C021B2919F00E6A43D /* BaseAppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppRouter.swift; sourceTree = "<group>"; };
+		0521C0C321B2933300E6A43D /* AuthorizationFirstScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationFirstScreenRouter.swift; sourceTree = "<group>"; };
+		0521C0C621B2C26000E6A43D /* TransitionIdGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIdGenerator.swift; sourceTree = "<group>"; };
+		0521C0C921B2CEFC00E6A43D /* StoryboardFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardFactory.swift; sourceTree = "<group>"; };
+		0521C0CB21B2CEFC00E6A43D /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		0521C0CF21B2CF8400E6A43D /* FirstAuthScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAuthScreenViewController.swift; sourceTree = "<group>"; };
+		0521C0D221B2CFB000E6A43D /* SecondAuthScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAuthScreenViewController.swift; sourceTree = "<group>"; };
+		0521C0D421B2D08E00E6A43D /* FirstAuthScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAuthScreenViewModel.swift; sourceTree = "<group>"; };
+		0521C0D621B2D1EB00E6A43D /* SecondAuthScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAuthScreenRouter.swift; sourceTree = "<group>"; };
+		0521C0D921B2E9C600E6A43D /* Utils.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Utils.storyboard; sourceTree = "<group>"; };
+		0521C0DD21B2EE6500E6A43D /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		0521C0E021B2F19F00E6A43D /* DatePickerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerRouter.swift; sourceTree = "<group>"; };
 		05B400FA21AF143D005EE15A /* SquareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B400FD21AF143D005EE15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05B4010221AF143D005EE15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +81,9 @@
 		05B4011121AF165E005EE15A /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 		05B4011721AF1CF7005EE15A /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		05B4011B21AF39AA005EE15A /* ConnectNetworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectNetworksViewController.swift; sourceTree = "<group>"; };
+		88ADCACBF7342EFCB7688582 /* Pods-SquareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareApp/Pods-SquareApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D75B824F51E9C288E6E59D6 /* Pods_SquareApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E459507C7DC8CC6BD1474B8C /* Pods-SquareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquareApp/Pods-SquareApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +91,184 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3004D444FA6F8D89BA84014 /* Pods_SquareApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0521C09821B1D3B900E6A43D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0DC21B2EE4200E6A43D /* HelperViews */,
+				0521C0CA21B2CEFC00E6A43D /* Localization */,
+				0521C0C821B2CEFC00E6A43D /* Storyboards */,
+				0521C09921B1D3C100E6A43D /* Common */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0521C09921B1D3C100E6A43D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0D821B2DD7400E6A43D /* ViewModel */,
+				0521C0C521B2C24800E6A43D /* Transition */,
+				0521C0BB21B1E0CE00E6A43D /* View */,
+				0521C0AF21B1DDF000E6A43D /* Router */,
+				0521C0A321B1D58C00E6A43D /* Services */,
+				0521C09A21B1D3CC00E6A43D /* Assembly */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0521C09A21B1D3CC00E6A43D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0521C09B21B1D3E200E6A43D /* BaseAssembly.swift */,
+				0521C09D21B1D47700E6A43D /* BaseAssemblySeed.swift */,
+				0521C09F21B1D49800E6A43D /* AssemblyFactory.swift */,
+				0521C0A121B1D4C800E6A43D /* AssemblyFactoryImpl.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0521C0A321B1D58C00E6A43D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0A421B1D59500E6A43D /* ServiceFactory.swift */,
+				0521C0A621B1D73200E6A43D /* ServiceFactoryImpl.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0521C0A821B1DB8000E6A43D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0A921B1DB9300E6A43D /* ApplicationAssembly.swift */,
+				0521C0AB21B1DBEE00E6A43D /* ApplicationAssemblyImpl.swift */,
+				0521C0AD21B1DC5B00E6A43D /* ApplicationModuleSeed.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0521C0AF21B1DDF000E6A43D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0B021B1DE0100E6A43D /* RouterSeed.swift */,
+				0521C0C021B2919F00E6A43D /* BaseAppRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0521C0B321B1DE7E00E6A43D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0B421B1DE8C00E6A43D /* AuthorizationAssemblyImpl.swift */,
+				0521C0B621B1DEA800E6A43D /* AuthorizationAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0521C0B821B1E01100E6A43D /* Bag */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0B921B1E02700E6A43D /* VCDisposeBag.swift */,
+			);
+			path = Bag;
+			sourceTree = "<group>";
+		};
+		0521C0BB21B1E0CE00E6A43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0B821B1E01100E6A43D /* Bag */,
+				0521C0BC21B1E0DF00E6A43D /* BaseViewController.swift */,
+				0521C0BE21B1E13300E6A43D /* ViewLifecycleObservable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0521C0C221B2928F00E6A43D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0521C0C521B2C24800E6A43D /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0C621B2C26000E6A43D /* TransitionIdGenerator.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		0521C0C821B2CEFC00E6A43D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0C921B2CEFC00E6A43D /* StoryboardFactory.swift */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0521C0CA21B2CEFC00E6A43D /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0CB21B2CEFC00E6A43D /* Localization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		0521C0CE21B2CF6A00E6A43D /* FirstAuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0C321B2933300E6A43D /* AuthorizationFirstScreenRouter.swift */,
+				0521C0CF21B2CF8400E6A43D /* FirstAuthScreenViewController.swift */,
+				0521C0D421B2D08E00E6A43D /* FirstAuthScreenViewModel.swift */,
+			);
+			path = FirstAuthScreen;
+			sourceTree = "<group>";
+		};
+		0521C0D121B2CF8E00E6A43D /* SecondAuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0D221B2CFB000E6A43D /* SecondAuthScreenViewController.swift */,
+				0521C0D621B2D1EB00E6A43D /* SecondAuthScreenRouter.swift */,
+			);
+			path = SecondAuthScreen;
+			sourceTree = "<group>";
+		};
+		0521C0D821B2DD7400E6A43D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0521C0DC21B2EE4200E6A43D /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0DF21B2F07200E6A43D /* DatePicker */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		0521C0DF21B2F07200E6A43D /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0521C0DD21B2EE6500E6A43D /* DatePickerViewController.swift */,
+				0521C0E021B2F19F00E6A43D /* DatePickerRouter.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
 		05B400F121AF143D005EE15A = {
 			isa = PBXGroup;
 			children = (
 				05B400FC21AF143D005EE15A /* SquareApp */,
 				05B400FB21AF143D005EE15A /* Products */,
+				501ABF9FFC90B22F4DB5B1C2 /* Pods */,
+				F1F4DC6DFE35E1A82C4A1303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +283,8 @@
 		05B400FC21AF143D005EE15A /* SquareApp */ = {
 			isa = PBXGroup;
 			children = (
-				05B4011521AF1C7A005EE15A /* Application */,
+				05B400FD21AF143D005EE15A /* AppDelegate.swift */,
+				0521C09821B1D3B900E6A43D /* Utils */,
 				05B4011321AF1C57005EE15A /* Resources */,
 				05B4011021AF1615005EE15A /* Extensions */,
 				05B4010F21AF15E9005EE15A /* Modules */,
@@ -70,6 +296,7 @@
 		05B4010F21AF15E9005EE15A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				05B4011521AF1C7A005EE15A /* Application */,
 				05B4011921AF35C9005EE15A /* Auth */,
 			);
 			path = Modules;
@@ -95,7 +322,7 @@
 		05B4011521AF1C7A005EE15A /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				05B400FD21AF143D005EE15A /* AppDelegate.swift */,
+				0521C0A821B1DB8000E6A43D /* Assembly */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -106,6 +333,7 @@
 				05B4010621AF143F005EE15A /* LaunchScreen.storyboard */,
 				05B4010121AF143D005EE15A /* Main.storyboard */,
 				05B4011721AF1CF7005EE15A /* Auth.storyboard */,
+				0521C0D921B2E9C600E6A43D /* Utils.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -113,6 +341,10 @@
 		05B4011921AF35C9005EE15A /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				0521C0D121B2CF8E00E6A43D /* SecondAuthScreen */,
+				0521C0CE21B2CF6A00E6A43D /* FirstAuthScreen */,
+				0521C0C221B2928F00E6A43D /* Router */,
+				0521C0B321B1DE7E00E6A43D /* Assembly */,
 				05B4011A21AF3986005EE15A /* ConnectNetworks */,
 			);
 			path = Auth;
@@ -126,6 +358,23 @@
 			path = ConnectNetworks;
 			sourceTree = "<group>";
 		};
+		501ABF9FFC90B22F4DB5B1C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E459507C7DC8CC6BD1474B8C /* Pods-SquareApp.debug.xcconfig */,
+				88ADCACBF7342EFCB7688582 /* Pods-SquareApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1F4DC6DFE35E1A82C4A1303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D75B824F51E9C288E6E59D6 /* Pods_SquareApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05B4010C21AF143F005EE15A /* Build configuration list for PBXNativeTarget "SquareApp" */;
 			buildPhases = (
+				EB32B4D718D9773B33B9F31B /* [CP] Check Pods Manifest.lock */,
 				05B400F621AF143D005EE15A /* Sources */,
 				05B400F721AF143D005EE15A /* Frameworks */,
 				05B400F821AF143D005EE15A /* Resources */,
+				FF16F940EDAD5951759E7790 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +437,7 @@
 			files = (
 				05B4011821AF1CF7005EE15A /* Auth.storyboard in Resources */,
 				05B4010821AF143F005EE15A /* LaunchScreen.storyboard in Resources */,
+				0521C0DA21B2E9C600E6A43D /* Utils.storyboard in Resources */,
 				05B4010521AF143F005EE15A /* Assets.xcassets in Resources */,
 				05B4010321AF143D005EE15A /* Main.storyboard in Resources */,
 			);
@@ -193,13 +445,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EB32B4D718D9773B33B9F31B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquareApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF16F940EDAD5951759E7790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SquareApp/Pods-SquareApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareApp/Pods-SquareApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05B400F621AF143D005EE15A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0521C0B721B1DEA800E6A43D /* AuthorizationAssembly.swift in Sources */,
+				0521C0C421B2933300E6A43D /* AuthorizationFirstScreenRouter.swift in Sources */,
+				0521C0A521B1D59500E6A43D /* ServiceFactory.swift in Sources */,
+				0521C09C21B1D3E200E6A43D /* BaseAssembly.swift in Sources */,
+				0521C0B121B1DE0100E6A43D /* RouterSeed.swift in Sources */,
+				0521C0B521B1DE8C00E6A43D /* AuthorizationAssemblyImpl.swift in Sources */,
+				0521C0C721B2C26000E6A43D /* TransitionIdGenerator.swift in Sources */,
+				0521C0D021B2CF8400E6A43D /* FirstAuthScreenViewController.swift in Sources */,
+				0521C0A221B1D4C800E6A43D /* AssemblyFactoryImpl.swift in Sources */,
 				05B4011C21AF39AA005EE15A /* ConnectNetworksViewController.swift in Sources */,
+				0521C0CD21B2CEFD00E6A43D /* Localization.swift in Sources */,
+				0521C0BD21B1E0DF00E6A43D /* BaseViewController.swift in Sources */,
+				0521C0BA21B1E02700E6A43D /* VCDisposeBag.swift in Sources */,
+				0521C0D721B2D1EB00E6A43D /* SecondAuthScreenRouter.swift in Sources */,
+				0521C0A721B1D73200E6A43D /* ServiceFactoryImpl.swift in Sources */,
+				0521C0A021B1D49800E6A43D /* AssemblyFactory.swift in Sources */,
+				0521C0DE21B2EE6500E6A43D /* DatePickerViewController.swift in Sources */,
+				0521C0D521B2D08F00E6A43D /* FirstAuthScreenViewModel.swift in Sources */,
+				0521C0C121B2919F00E6A43D /* BaseAppRouter.swift in Sources */,
+				0521C0D321B2CFB000E6A43D /* SecondAuthScreenViewController.swift in Sources */,
+				0521C0AA21B1DB9300E6A43D /* ApplicationAssembly.swift in Sources */,
+				0521C0CC21B2CEFD00E6A43D /* StoryboardFactory.swift in Sources */,
+				0521C0BF21B1E13300E6A43D /* ViewLifecycleObservable.swift in Sources */,
+				0521C0AC21B1DBEE00E6A43D /* ApplicationAssemblyImpl.swift in Sources */,
+				0521C09E21B1D47700E6A43D /* BaseAssemblySeed.swift in Sources */,
+				0521C0AE21B1DC5B00E6A43D /* ApplicationModuleSeed.swift in Sources */,
 				05B4011221AF165E005EE15A /* UIColor+CustomColors.swift in Sources */,
+				0521C0E121B2F19F00E6A43D /* DatePickerRouter.swift in Sources */,
 				05B400FE21AF143D005EE15A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +673,7 @@
 		};
 		05B4010D21AF143F005EE15A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E459507C7DC8CC6BD1474B8C /* Pods-SquareApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -364,6 +694,7 @@
 		};
 		05B4010E21AF143F005EE15A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88ADCACBF7342EFCB7688582 /* Pods-SquareApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ConnectNetworksViewController: UIViewController {
+class ConnectNetworksViewController: BaseViewController {
 
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var createYourProfileLabel: UILabel!
