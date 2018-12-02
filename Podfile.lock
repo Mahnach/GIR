@@ -1,4 +1,5 @@
 PODS:
+  - Mapbox-iOS-SDK (4.6.0)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
@@ -6,20 +7,23 @@ PODS:
     - RxAtomic (~> 4.4)
 
 DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 4.6)
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Mapbox-iOS-SDK
     - RxAtomic
     - RxCocoa
     - RxSwift
 
 SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 204c04713477cf2a88c52c5a8eed1790eb75a02a
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
 
-PODFILE CHECKSUM: ee6b98861b0decd4f8120aef0f013a4a3282dc1d
+PODFILE CHECKSUM: dce2e9be56fe9bb66f81b082151040271924c147
 
 COCOAPODS: 1.5.3

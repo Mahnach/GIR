@@ -25,13 +25,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IJj-DI-Qgf">
                                 <rect key="frame" x="299" y="539" width="46" height="68"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtH-b6-2bn">
-                                        <rect key="frame" x="0.0" y="0.0" width="46" height="38"/>
-                                        <state key="normal" image="map_location_ic"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f12-te-lfv">
                                         <rect key="frame" x="0.0" y="38" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtH-b6-2bn">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="38"/>
+                                        <state key="normal" image="map_location_ic"/>
+                                        <connections>
+                                            <action selector="moveToCurrentLocationTouched:" destination="2JN-t3-7qh" eventType="touchUpInside" id="2i5-CB-AfK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -47,6 +50,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2pA-dH-CFg"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="GgP-gf-86a" id="akx-Hn-aGL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27C-gY-2eN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
