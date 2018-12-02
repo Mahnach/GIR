@@ -19,9 +19,14 @@ final class ApplicationAssemblyImpl: BaseAssembly, ApplicationAssembly {
             transitionId: "0",
             transitionIdGenerator: serviceFactory.getTransitionIdGenerator(),
             presentingRouter: nil,
-            presentationType: .modal(true))
+            presentationType: .push(true))
         
-        return assemblyFactory.authorizationAssembly().firstScreenModule(routerSeed: seed)
+        let vc = assemblyFactory.authorizationAssembly().firstScreenModule(routerSeed: seed)
+        let navigationCotroller = UINavigationController(rootViewController: vc)
+        navigationCotroller.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationCotroller.navigationBar.shadowImage = UIImage()
+        navigationCotroller.navigationBar.tintColor = UIColor.Custom.accent
+        return navigationCotroller
         
     }
 }

@@ -11,4 +11,5 @@ import Foundation
 protocol AssemblyFactory: class {
     func applicationAssembly() -> ApplicationAssembly
     func authorizationAssembly() -> AuthorizationAssembly
+    func mapAssembly() -> MapAssembly
 }

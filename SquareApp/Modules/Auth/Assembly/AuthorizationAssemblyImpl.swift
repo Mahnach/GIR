@@ -13,6 +13,13 @@ final class AuthorizationAssemblyImpl: BaseAssembly, AuthorizationAssembly {
     
     // MARK: - AuthorizationAssembly
     
+    func finishAuthModule(routerSeed: RouterSeed) -> FinishAuthViewController {
+        let vc: FinishAuthViewController! = StoryboardFactory.Auth.finish.instantiateViewController()
+        let router = FinishAuthRouter(assemblyFactory: assemblyFactory, routerSeed: routerSeed, presentedViewController: vc)
+        vc.router = router
+        return vc
+    }
+    
     func birtdayDatePickerModule(routerSeed: RouterSeed, datePicked: @escaping ((_ date: Date) -> Void), initialDate: Date?) -> DatePickerViewController {
         let vc: DatePickerViewController! = StoryboardFactory.Utils.datePicker.instantiateViewController()
         vc.datePicked = datePicked
@@ -37,9 +44,22 @@ final class AuthorizationAssemblyImpl: BaseAssembly, AuthorizationAssembly {
     
     func secondScreenModule(routerSeed: RouterSeed) -> UIViewController {
         let viewController: SecondAuthScreenViewController! = StoryboardFactory.Auth.secondScreen.instantiateViewController()
-        //let router = SecondAuthScreenRouter(assemblyFactory: assemblyFactory, routerSeed: routerSeed)
-        //let vm = FirstAuthScreenViewModel(router: router)
-        //viewController.add(disposable: vm)
+        
+        let router = SecondAuthScreenRouter(assemblyFactory: assemblyFactory, routerSeed: routerSeed, presentedViewController: viewController)
+        let vm = SecondAuthScreenViewModel(router: router)
+        viewController.vm = vm
+        
+        return viewController
+    }
+    
+    func thirdScreenModule(routerSeed: RouterSeed) -> ConnectNetworksViewController {
+        let viewController: ConnectNetworksViewController! = StoryboardFactory.Auth.connectNetworksViewController.instantiateViewController()
+        
+        let router = ConnectNetworksRouter(assemblyFactory: assemblyFactory,
+                                           routerSeed: routerSeed,
+                                           presentedViewController: viewController)
+        let vm = ConnectNetworksViewModel(router: router)
+        viewController.vm = vm
         
         return viewController
     }

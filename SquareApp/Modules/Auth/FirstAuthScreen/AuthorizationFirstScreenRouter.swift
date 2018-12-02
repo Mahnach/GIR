@@ -20,7 +20,7 @@ class AuthorizationFirstScreenRouter: BaseAppRouter {
     }
     
     func presentSecondScreen() {
-        presentModule(withPresentationType: .modal(true)) { (seed) -> UIViewController in
+        presentModule(withPresentationType: .push(true)) { (seed) -> UIViewController in
             return assemblyFactory
                 .authorizationAssembly()
                 .secondScreenModule(routerSeed: seed)

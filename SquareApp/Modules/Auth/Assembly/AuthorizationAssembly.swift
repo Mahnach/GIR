@@ -11,9 +11,11 @@ import UIKit
 
 protocol AuthorizationAssembly: class {
     
+    func finishAuthModule(routerSeed: RouterSeed) -> FinishAuthViewController
     func birtdayDatePickerModule(routerSeed: RouterSeed, datePicked: @escaping ((_ date: Date) -> Void), initialDate: Date?) -> DatePickerViewController
     func firstScreenModule(routerSeed: RouterSeed)
         -> UIViewController
     func secondScreenModule(routerSeed: RouterSeed)
         -> UIViewController
+    func thirdScreenModule(routerSeed: RouterSeed) -> ConnectNetworksViewController
 }

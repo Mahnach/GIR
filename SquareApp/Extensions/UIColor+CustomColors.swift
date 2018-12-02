@@ -12,5 +12,6 @@ import UIKit
 extension UIColor {
     enum Custom {
         static let accent = UIColor(red:0.84, green:0.05, blue:0.55, alpha:1)
+        static let tabbar = UIColor(red:127.0/255, green:71.0/255, blue:221.0/255, alpha:1)
     }
 }

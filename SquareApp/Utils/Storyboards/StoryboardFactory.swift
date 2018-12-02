@@ -25,8 +25,12 @@ final class StoryboardFactory {
         case firstScreen = "FirstAuthScreenViewController"
         case secondScreen = "SecondAuthScreenViewController"
         case connectNetworksViewController = "ConnectNetworksViewController"
+        case finish = "FinishAuthViewController"
     }
    
+    enum Map: String, StoryboardInitable {
+        case map = "MainMapViewController"
+    }
   
     
 }

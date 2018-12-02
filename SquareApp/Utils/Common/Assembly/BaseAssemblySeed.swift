@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 struct BaseAssemblySeed {
     let assemblyFactory: AssemblyFactory
     let serviceFactory: ServiceFactory

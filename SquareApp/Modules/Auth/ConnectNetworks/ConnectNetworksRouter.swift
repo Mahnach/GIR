@@ -1,21 +1,20 @@
 //
-//  SecondAuthScreenRouter.swift
+//  ConnectNetworksRouter.swift
 //  SquareApp
 //
-//  Created by computer_new on 12/1/18.
+//  Created by computer_new on 12/2/18.
 //  Copyright © 2018 Square. All rights reserved.
 //
-
 
 import Foundation
 import UIKit
 
-class SecondAuthScreenRouter: BaseAppRouter {
-    func presentThirdScreen() {
+class ConnectNetworksRouter: BaseAppRouter {
+    func presentFinishAuthScreen() {
         presentModule(withPresentationType: .push(true)) { (seed) -> UIViewController in
             return assemblyFactory
                 .authorizationAssembly()
-                .thirdScreenModule(routerSeed: seed)
+                .finishAuthModule(routerSeed: seed)
         }
     }
 }

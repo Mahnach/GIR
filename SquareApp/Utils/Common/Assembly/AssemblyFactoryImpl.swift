@@ -9,6 +9,7 @@
 import Foundation
 
 final class AssemblyFactoryImpl: AssemblyFactory {
+    
     // MARK: - Init
     private let serviceFactory: ServiceFactory
     
@@ -27,6 +28,9 @@ final class AssemblyFactoryImpl: AssemblyFactory {
         return AuthorizationAssemblyImpl(assemblySeed: assemblySeed)
     }
 
+    func mapAssembly() -> MapAssembly {
+        return MapAssemblyImpl(assemblySeed: assemblySeed)
+    }
     
     // MARK: - Private
     private var assemblySeed: BaseAssemblySeed {

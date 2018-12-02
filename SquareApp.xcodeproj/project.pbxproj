@@ -34,6 +34,15 @@
 		0521C0DA21B2E9C600E6A43D /* Utils.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0521C0D921B2E9C600E6A43D /* Utils.storyboard */; };
 		0521C0DE21B2EE6500E6A43D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0DD21B2EE6500E6A43D /* DatePickerViewController.swift */; };
 		0521C0E121B2F19F00E6A43D /* DatePickerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521C0E021B2F19F00E6A43D /* DatePickerRouter.swift */; };
+		054A8FA421B3D75D00503078 /* ConnectNetworksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A8FA321B3D75D00503078 /* ConnectNetworksRouter.swift */; };
+		056DE5B721B407FB00E50CFA /* FinishAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5B621B407FB00E50CFA /* FinishAuthViewController.swift */; };
+		056DE5B921B4096600E50CFA /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056DE5B821B4096600E50CFA /* Map.storyboard */; };
+		056DE5BB21B4099F00E50CFA /* FinishAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5BA21B4099F00E50CFA /* FinishAuthRouter.swift */; };
+		056DE5BD21B4163500E50CFA /* SecondAuthScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5BC21B4163500E50CFA /* SecondAuthScreenViewModel.swift */; };
+		056DE5BF21B4180400E50CFA /* ConnectNetworksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5BE21B4180400E50CFA /* ConnectNetworksViewModel.swift */; };
+		056DE5C221B4298800E50CFA /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5C121B4298800E50CFA /* MainMapViewController.swift */; };
+		056DE5C521B429FB00E50CFA /* MapAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5C421B429FB00E50CFA /* MapAssembly.swift */; };
+		056DE5C721B42A0700E50CFA /* MapAssemblyImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DE5C621B42A0700E50CFA /* MapAssemblyImpl.swift */; };
 		05B400FE21AF143D005EE15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B400FD21AF143D005EE15A /* AppDelegate.swift */; };
 		05B4010321AF143D005EE15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010121AF143D005EE15A /* Main.storyboard */; };
 		05B4010521AF143F005EE15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B4010421AF143F005EE15A /* Assets.xcassets */; };
@@ -72,6 +81,15 @@
 		0521C0D921B2E9C600E6A43D /* Utils.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Utils.storyboard; sourceTree = "<group>"; };
 		0521C0DD21B2EE6500E6A43D /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		0521C0E021B2F19F00E6A43D /* DatePickerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerRouter.swift; sourceTree = "<group>"; };
+		054A8FA321B3D75D00503078 /* ConnectNetworksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectNetworksRouter.swift; sourceTree = "<group>"; };
+		056DE5B621B407FB00E50CFA /* FinishAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAuthViewController.swift; sourceTree = "<group>"; };
+		056DE5B821B4096600E50CFA /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		056DE5BA21B4099F00E50CFA /* FinishAuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAuthRouter.swift; sourceTree = "<group>"; };
+		056DE5BC21B4163500E50CFA /* SecondAuthScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAuthScreenViewModel.swift; sourceTree = "<group>"; };
+		056DE5BE21B4180400E50CFA /* ConnectNetworksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectNetworksViewModel.swift; sourceTree = "<group>"; };
+		056DE5C121B4298800E50CFA /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
+		056DE5C421B429FB00E50CFA /* MapAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAssembly.swift; sourceTree = "<group>"; };
+		056DE5C621B42A0700E50CFA /* MapAssemblyImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAssemblyImpl.swift; sourceTree = "<group>"; };
 		05B400FA21AF143D005EE15A /* SquareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B400FD21AF143D005EE15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05B4010221AF143D005EE15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -234,6 +252,7 @@
 			children = (
 				0521C0D221B2CFB000E6A43D /* SecondAuthScreenViewController.swift */,
 				0521C0D621B2D1EB00E6A43D /* SecondAuthScreenRouter.swift */,
+				056DE5BC21B4163500E50CFA /* SecondAuthScreenViewModel.swift */,
 			);
 			path = SecondAuthScreen;
 			sourceTree = "<group>";
@@ -260,6 +279,33 @@
 				0521C0E021B2F19F00E6A43D /* DatePickerRouter.swift */,
 			);
 			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		056DE5B521B407B300E50CFA /* FinishAuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				056DE5B621B407FB00E50CFA /* FinishAuthViewController.swift */,
+				056DE5BA21B4099F00E50CFA /* FinishAuthRouter.swift */,
+			);
+			path = FinishAuthScreen;
+			sourceTree = "<group>";
+		};
+		056DE5C021B4297200E50CFA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				056DE5C321B4299000E50CFA /* Assembly */,
+				056DE5C121B4298800E50CFA /* MainMapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		056DE5C321B4299000E50CFA /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				056DE5C421B429FB00E50CFA /* MapAssembly.swift */,
+				056DE5C621B42A0700E50CFA /* MapAssemblyImpl.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		05B400F121AF143D005EE15A = {
@@ -296,6 +342,7 @@
 		05B4010F21AF15E9005EE15A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				056DE5C021B4297200E50CFA /* Map */,
 				05B4011521AF1C7A005EE15A /* Application */,
 				05B4011921AF35C9005EE15A /* Auth */,
 			);
@@ -334,6 +381,7 @@
 				05B4010121AF143D005EE15A /* Main.storyboard */,
 				05B4011721AF1CF7005EE15A /* Auth.storyboard */,
 				0521C0D921B2E9C600E6A43D /* Utils.storyboard */,
+				056DE5B821B4096600E50CFA /* Map.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -341,6 +389,7 @@
 		05B4011921AF35C9005EE15A /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				056DE5B521B407B300E50CFA /* FinishAuthScreen */,
 				0521C0D121B2CF8E00E6A43D /* SecondAuthScreen */,
 				0521C0CE21B2CF6A00E6A43D /* FirstAuthScreen */,
 				0521C0C221B2928F00E6A43D /* Router */,
@@ -354,6 +403,8 @@
 			isa = PBXGroup;
 			children = (
 				05B4011B21AF39AA005EE15A /* ConnectNetworksViewController.swift */,
+				054A8FA321B3D75D00503078 /* ConnectNetworksRouter.swift */,
+				056DE5BE21B4180400E50CFA /* ConnectNetworksViewModel.swift */,
 			);
 			path = ConnectNetworks;
 			sourceTree = "<group>";
@@ -440,6 +491,7 @@
 				0521C0DA21B2E9C600E6A43D /* Utils.storyboard in Resources */,
 				05B4010521AF143F005EE15A /* Assets.xcassets in Resources */,
 				05B4010321AF143D005EE15A /* Main.storyboard in Resources */,
+				056DE5B921B4096600E50CFA /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,19 +554,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				0521C0B721B1DEA800E6A43D /* AuthorizationAssembly.swift in Sources */,
+				056DE5BD21B4163500E50CFA /* SecondAuthScreenViewModel.swift in Sources */,
 				0521C0C421B2933300E6A43D /* AuthorizationFirstScreenRouter.swift in Sources */,
 				0521C0A521B1D59500E6A43D /* ServiceFactory.swift in Sources */,
 				0521C09C21B1D3E200E6A43D /* BaseAssembly.swift in Sources */,
+				054A8FA421B3D75D00503078 /* ConnectNetworksRouter.swift in Sources */,
+				056DE5BB21B4099F00E50CFA /* FinishAuthRouter.swift in Sources */,
 				0521C0B121B1DE0100E6A43D /* RouterSeed.swift in Sources */,
 				0521C0B521B1DE8C00E6A43D /* AuthorizationAssemblyImpl.swift in Sources */,
 				0521C0C721B2C26000E6A43D /* TransitionIdGenerator.swift in Sources */,
 				0521C0D021B2CF8400E6A43D /* FirstAuthScreenViewController.swift in Sources */,
 				0521C0A221B1D4C800E6A43D /* AssemblyFactoryImpl.swift in Sources */,
 				05B4011C21AF39AA005EE15A /* ConnectNetworksViewController.swift in Sources */,
+				056DE5C721B42A0700E50CFA /* MapAssemblyImpl.swift in Sources */,
 				0521C0CD21B2CEFD00E6A43D /* Localization.swift in Sources */,
+				056DE5C221B4298800E50CFA /* MainMapViewController.swift in Sources */,
+				056DE5B721B407FB00E50CFA /* FinishAuthViewController.swift in Sources */,
 				0521C0BD21B1E0DF00E6A43D /* BaseViewController.swift in Sources */,
 				0521C0BA21B1E02700E6A43D /* VCDisposeBag.swift in Sources */,
+				056DE5C521B429FB00E50CFA /* MapAssembly.swift in Sources */,
 				0521C0D721B2D1EB00E6A43D /* SecondAuthScreenRouter.swift in Sources */,
+				056DE5BF21B4180400E50CFA /* ConnectNetworksViewModel.swift in Sources */,
 				0521C0A721B1D73200E6A43D /* ServiceFactoryImpl.swift in Sources */,
 				0521C0A021B1D49800E6A43D /* AssemblyFactory.swift in Sources */,
 				0521C0DE21B2EE6500E6A43D /* DatePickerViewController.swift in Sources */,
